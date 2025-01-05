@@ -4,6 +4,7 @@ const Card = (props) => {
     console.log(props.photo)
     return (
         <div className='mr-8 m-10 item-center bg-white text-black text-2xl inline-block p-6 text-center rounded' >
+
             <img className="ml-10 h-32 w-32 rounded-full mb-3" src={props.photo} alt="" />
             <h1 className='text-2xl font-semibold mb-4'>{props.name} </h1>
             <h4 className='text-blue-400'>{props.profession}</h4>

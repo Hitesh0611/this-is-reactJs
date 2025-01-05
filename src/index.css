@@ -5,6 +5,17 @@
 
 html,
 body {
-  background-color: rgb(15, 21, 21);
+  background-color: rgb(18, 20, 20);
   color: linen;
+}
+
+h1 {
+  position: absolute;
+  text-decoration:underline;
+  font-size: 70px;
+  font-weight: 600;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+
 }
