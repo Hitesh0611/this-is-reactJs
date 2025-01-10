@@ -4,7 +4,7 @@ const Product = () => {
     return (
         <div>
             <h1>
-                product page
+                me product hu 
             </h1>
         </div>
     )

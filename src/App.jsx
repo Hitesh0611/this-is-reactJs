@@ -342,30 +342,41 @@
 // "react-router-dom"
 ////////////////////////
 ////////////////////////
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import About from './Pages/About'
+// import Contact from './Pages/Contact'
+// import Home from './Pages/Home'
+// import Header from './Pages/Header'
+
+// const App = () => {
+
+//   return (
+//     <div>
+//       <Header />
+//       <Routes>
+//         <Route path='header' element={< Header />} />
+//         <Route path='/' element={< Home />} />
+//         <Route path='/About' element={< About />} />
+//         <Route path='/Contact' element={< Contact />} />
+//         <Route path='/Product' element={< product />} />
+//         {/* <Route path='/Home' element={< Home />} /> */}
+
+//       </Routes>
+//     </div>
+//   )
+// }
+
+// export default App
+//3:00:01
+//////////////////////////////////////
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Home from './Pages/Home'
-import product from './Pages/Product'
-import Header from './Pages/Header'
 
 const App = () => {
-  return (
-    <div>
-
-      <Routes>
-        <Route path='Header' element={< Header />} />
-        {/* <Route path='/' element={< Home />} />
-        <Route path='/About' element={< About />} />
-        <Route path='/Contact' element={< Contact />} />
-        <Route path='/Product' element={< product />} />
-        <Route path='/Home' element={< Home />} /> */}
-
-      </Routes>
-    </div>
-  )
+    return (
+        <div>App</div>
+    )
 }
 
 export default App
-//3:00:01
+// 3:09:00
